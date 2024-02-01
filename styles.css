@@ -12,6 +12,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+body h1{
+    display: block;
+}
 .container{
     position: relative;
     background: #779581;
@@ -32,12 +35,12 @@ body{
     color: #000e1a;
     pointer-events: none;
 }
-.button{
+.buttons{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
 }
-.button button{
+.buttons button{
     padding: 10px;
     border-radius: 6px;
     width: 60px;
