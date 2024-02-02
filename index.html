@@ -10,11 +10,11 @@
     <div class="container">
         <input type="text" class="display" disabled id="display">
         <div class="buttons">
-            <button onclick="calculator.setOperation('+')">+</button>
-            <button onclick="calculator.setOperation('-')">-</button>
-            <button onclick="calculator.setOperation('*')">*</button>
-            <button onclick="calculator.setOperation('/')">/</button>
-            <button onclick="calculator.calculate()">=</button>
+            <button onclick="calculator.setOperation('+')" class="operator">+</button>
+            <button onclick="calculator.setOperation('-')" class="operator">-</button>
+            <button onclick="calculator.setOperation('*')" class="operator">*</button>
+            <button onclick="calculator.setOperation('/')" class="operator">/</button>
+            <button onclick="calculator.calculate()" class="operator">=</button>
             <button onclick="calculator.appendNumber(8)">8</button>
             <button onclick="calculator.appendNumber(9)">9</button>
             <button onclick="calculator.appendNumber(4)">4</button>
@@ -26,8 +26,8 @@
             <button onclick="calculator.appendNumber(0)">0</button>
             <button onclick="calculator.appendNumber(7)">7</button>
             <button onclick="calculator.setDecimal()">.</button>
-            <button onclick="calculator.clear()">AC</button>
-            <button onclick="calculator.delete()">DEL</button>
+            <button onclick="calculator.clear()" class="operator">AC</button>
+            <button onclick="calculator.delete()" class="operator">DEL</button>
         </div>
     </div>
     <script src="./script.js"></script>
