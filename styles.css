@@ -11,9 +11,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 body h1{
-    display: block;
+    /* display: block; */
+    margin-bottom: 20px;
+    color: #779581;
 }
 .container{
     position: relative;
